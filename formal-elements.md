@@ -76,11 +76,11 @@ The player will easily understand what’s the game world limit by the UI, there
 
 1- flappy bird 
 
-<img width= “500” height=”300” src=”https://user-images.githubusercontent.com/10331972/226715350-e8ec432d-758d-40e5-8a89-48bd81cb4c57.jpg”/>
+<img width="500" height="300" src="https://user-images.githubusercontent.com/10331972/226715350-e8ec432d-758d-40e5-8a89-48bd81cb4c57.jpg" />
 
 2- mario 
 
-<img width= “500” height=”300” src=”https://user-images.githubusercontent.com/10331972/226715514-7e83003b-97fb-4d0d-99ea-4c184525a30f.jpg” />
+<img width="500" height="300" src="https://user-images.githubusercontent.com/10331972/226715514-7e83003b-97fb-4d0d-99ea-4c184525a30f.jpg" />
 
 
 
@@ -89,7 +89,7 @@ The player will easily understand what’s the game world limit by the UI, there
 3-  Jumping frog
 
 
-<img width= “500” height=”300” src=”https://user-images.githubusercontent.com/70629274/226715228-718e9edf-5d65-4a61-947e-0c948fbddfa0.jpg” />
+<img width="500" height="300" src="https://user-images.githubusercontent.com/70629274/226715228-718e9edf-5d65-4a61-947e-0c948fbddfa0.jpg" />
 
 
 
