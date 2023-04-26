@@ -5,7 +5,7 @@ using UnityEngine;
 public class PipeSpawnerScript : MonoBehaviour
 {
 
-    public GameObject pipe;
+    public List<GameObject> pipes;
     public float spawnRate = 2;
     public float heightOffset = 10;
 
@@ -39,6 +39,7 @@ public class PipeSpawnerScript : MonoBehaviour
         float lowestPoint = transform.position.y - heightOffset;
         float highestPoint = transform.position.y + heightOffset;
 
+        GameObject pipe = pipes[Random.Range(0, pipes.Count)];
         Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0), transform.rotation);
     }
 }

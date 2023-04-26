@@ -1,21 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LogicScript : MonoBehaviour
 {
-    public int playerScore;
-    public Text scoreText;
-    public GameObject gameOverScreen;
+    [SerializeField] NumberField score;
+    [SerializeField] GameObject gameOverScreen;
 
     [ContextMenu("Increase Score")]
     public void addScore(int s)
     {
-        playerScore += s;
-        scoreText.text = playerScore.ToString();
-
+        score.AddNumber(s);
     }
 
 
