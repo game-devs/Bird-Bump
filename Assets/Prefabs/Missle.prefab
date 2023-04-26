@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8876506639674459101}
   - component: {fileID: 2124649936371298532}
-  - component: {fileID: 8460030146928402215}
   - component: {fileID: 3534727211764472374}
   - component: {fileID: 1049971030967826767}
+  - component: {fileID: 8460030146928402215}
   m_Layer: 0
   m_Name: Missle
-  m_TagString: Untagged
+  m_TagString: Missile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,20 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8460030146928402215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5737678331649042766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77344e21c24855346b12a500b2e2d404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyTriggerTags:
-  - Pipe
 --- !u!61 &3534727211764472374
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -148,3 +134,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8460030146928402215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5737678331649042766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77344e21c24855346b12a500b2e2d404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTriggerTags:
+  - Pipe
+  - PipeButton
+  speed: 8

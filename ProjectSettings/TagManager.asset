@@ -8,6 +8,8 @@ TagManager:
   - Bird
   - Pipe
   - PipObj
+  - Missile
+  - PipeButton
   layers:
   - Default
   - TransparentFX

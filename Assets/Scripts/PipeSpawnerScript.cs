@@ -19,11 +19,7 @@ public class PipeSpawnerScript : MonoBehaviour
         StartCoroutine(createPipes());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+   
 
     IEnumerator createPipes()
     {
