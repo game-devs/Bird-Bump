@@ -4,22 +4,15 @@ using UnityEngine;
 
 public class PipeSpawnerScript : MonoBehaviour
 {
-
     public List<GameObject> pipes;
     public float spawnRate = 2;
     public float heightOffset = 10;
-
-
-
-
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(createPipes());
     }
-
-   
 
     IEnumerator createPipes()
     {
